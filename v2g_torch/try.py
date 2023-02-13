@@ -11,7 +11,7 @@ import utils
 warnings.filterwarnings("ignore")
 
 
-video_path = 'test.mp4'
+video_path = 'test.mp4'     # here to put a video path
 highlight_time = 5
 stride = 8
 
