@@ -11,7 +11,7 @@ import utils
 warnings.filterwarnings("ignore")
 
 
-video_path = 'video_25_fps/32.mp4'
+video_path = 'test.mp4'
 highlight_time = 5
 stride = 8
 
@@ -23,4 +23,3 @@ segments = [(start, int(start+video.fps*highlight_time)) for start in range(0, i
 scores = utils.get_scores(segments, video, stride=stride)
 id_of_highlight = utils.get_highlight_idx(scores)
 print("score the video ", id_of_highlight, "takes ", time.time() - start, "s")
-
