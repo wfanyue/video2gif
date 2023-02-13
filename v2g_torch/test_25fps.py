@@ -32,6 +32,6 @@ for i in video_list:
     f.write(text1)
     text2 = "\nthe top idx of segment " + str(id_of_highlight) + " is: "
     for key in scores.keys():
-        temp = str(scores[key]).split(',')[0].split('(')[1]  # 分割出得分
+        temp = str(scores[key]).split(',')[0].split('(')[1]  # segment with highlight score
         text2 += "[" + str(key) + " " + temp + "] "
     f.write(text2 + "\n")
