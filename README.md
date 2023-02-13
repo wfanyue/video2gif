@@ -1,6 +1,6 @@
 # video2gif
 
-PyTorch implementation of [Video2gif](https://arxiv.org/abs/1605.04850)
+Demo using PyTorch simple implementation of [Video2gif](https://arxiv.org/abs/1605.04850)
 
 For example, 
 ```
